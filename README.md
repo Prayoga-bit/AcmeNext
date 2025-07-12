@@ -1,7 +1,17 @@
 # Financial Dashboard Project
 
-This project is a full-stack Next.js application that creates a financial dashboard. It includes a public home page, a login page, and authenticated dashboard pages where users can manage invoices. This course is designed to provide the essential skills needed to build complete Next.js applications.
+This project is a full-stack Next.js application that creates a financial dashboard. It includes a public home page, a login page, and authenticated dashboard pages where users can manage invoices. This project is designed to provide the essential skills needed to build complete Next.js applications.
 
+-----
+
+## User
+You can acces this apps with this user:
+```bash
+
+email: user@nextmail.com
+password: 123456
+
+```
 -----
 
 ## Features
@@ -21,11 +31,6 @@ This project will guide you through implementing the following features:
 
 -----
 
-## Prerequisite Knowledge
-
-This course assumes you have a foundational understanding of **React** and **JavaScript**. If you are new to React, it is recommended to complete a foundational course covering components, props, state, hooks, Server Components, and Suspense before starting this project.
-
------
 
 ## System Requirements
 
@@ -52,6 +57,8 @@ To get the project up and running on your local machine, follow these steps:
 
     ```bash
     cd AcmeNext
+    #or
+    cd <your-folder-name>
     ```
 
 3.  **Install Dependencies**:
@@ -78,9 +85,9 @@ To get the project up and running on your local machine, follow these steps:
     Start the Next.js development server to view the application in your browser:
 
     ```bash
-    npm run dev
-    #or
     pnpm dev
+    #or
+    npm run dev
     #or
     yarn dev
     ```
